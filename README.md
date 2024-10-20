@@ -12,3 +12,4 @@ Hasil:
 
 3.	Uji API Secara Publik:
     Gunakan ngrok atau sejenisnya untuk membuka API ke internet.
+![Hsil](image-4.png)
