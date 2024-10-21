@@ -19,7 +19,7 @@ use App\Http\Controllers\BukuController;
 //     return $request->user();
 // });
 
-Route::get('/bukus/search', [BukuController::class,'search']);
+
 Route::apiResource('kategoris', KategoriController::class);
 Route::apiResource('buku', BukuController::class);
 // Route::get('/buku/{buku}',[BukuController::class,'show']);

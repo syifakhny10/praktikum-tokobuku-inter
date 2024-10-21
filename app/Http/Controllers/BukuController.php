@@ -34,11 +34,7 @@ class BukuController extends Controller
     
     public function search(Request $request)
     {
-        $kategori=$request->input('kategori');
-        $buku=Buku::wherehas('kategori', function($query) use ($kategori){
-            $query->where('nama_kategori', 'like', '%' . $kategori . '%');
-        })->get();
-        return response()->json($buku);
+        //
     }
 
     /**
